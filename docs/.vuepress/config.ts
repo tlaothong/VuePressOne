@@ -1,5 +1,15 @@
-import { defineUserConfig } from 'vuepress'
+import { defineUserConfig, defaultTheme } from 'vuepress'
 
 export default defineUserConfig({
-  // theme: mixTheme({}),
+  theme: defaultTheme({
+    navbar: [
+      // NavbarItem
+      {
+        text: 'Home',
+        link: '/',
+      },
+      // string - page file path
+      '/Page1.md',
+    ]
+  })
 });
