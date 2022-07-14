@@ -1,3 +1,7 @@
+---
+home: true
+---
+
 # VuePress Site
 ## Table of Contents
 
